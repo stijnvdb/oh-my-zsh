@@ -22,5 +22,5 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} x%{$reset_color%}"
 # SVN bits & pieces
 ZSH_THEME_SVN_PROMPT_PREFIX="%{$fg[green]%}÷ %{$fg[yellow]%}%{$reset_color%}"
 ZSH_THEME_SVN_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_SVN_PROMPT_CLEAN="%{$fg[green]%} v%{$reset_color%}"
+ZSH_THEME_SVN_PROMPT_CLEAN="%{$fg[green]%} v%{$reset_color%} "
 ZSH_THEME_SVN_PROMPT_DIRTY="%{$fg[red]%} x%{$reset_color%} "
