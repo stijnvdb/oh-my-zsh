@@ -11,7 +11,7 @@ fpath=($ZSH/functions $ZSH/completions $fpath)
 
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
 # TIP: Add files you don't want in git to .gitignore
- for config_file (/Users/sjugge/Workspace/dotfiles/oh-my-zsh/lib/*.zsh); do
+ for config_file ($ZSH/lib/*.zsh); do
   source $config_file
  done
 
@@ -77,7 +77,7 @@ else
     then
       source "$ZSH_CUSTOM/themes/$ZSH_THEME.zsh-theme"
     else
-      source "/Users/sjugge/Workspace/dotfiles/oh-my-zsh/themes/$ZSH_THEME.zsh-theme"
+      source "$ZSH/themes/$ZSH_THEME.zsh-theme"
     fi
   fi
 fi
